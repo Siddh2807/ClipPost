@@ -32,20 +32,16 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    Bitmap bitmap;
     ImageView imageView;
     Button selectImg,uploadImg;
     EditText imgTitle;
     private  static final int IMAGE = 100;
     String selectedPath;
     private File file;
-    ArrayList<String> arrayList = new ArrayList<> ();
 
-    String sta, msg, data;
     private int serverResponseCode;
     String Upload_res="";
 
